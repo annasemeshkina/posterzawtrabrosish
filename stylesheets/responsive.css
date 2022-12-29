@@ -1,6 +1,7 @@
 /*______________________________________________________________1440______________________________________________________________*/
-@media screen and (min-width: 1399px) and (max-width: 1440px) {
+@media screen and (min-width: 1399px) and (max-width: 1799px) {
   .container {
+    grid-template-columns: repeat(8, 180px);
     grid-template-rows: repeat(11, 300px);
   }
   .block1 p {
@@ -22,6 +23,18 @@
     font-size: 55px;
     text-align: center;
   }
+  /*стили блока со звездами*/
+  .stars {
+    width: 540px;
+    height: 300px;
+    background: url('images/stars1440.svg');
+    animation: stars1440 0.7s steps(1) infinite;
+  }
+  @keyframes stars1440 {
+    0% {background-position: 0 0;}
+    50% {background-position: -540px 0;}
+    100% {background-position: -1080px 0;}
+    }
   /*стили с солнцем*/
   .b7t1 p {
     padding-top: 25px;
@@ -31,6 +44,59 @@
   .phone {
     margin-left: 160px;
   }
+  /*стили слез*/
+  .tears {
+    height: 280px;
+    width: 390px;
+    background: url('images/tears1440.svg');
+    animation: tears1440.7s steps(1) infinite;
+  }
+  @keyframes tears1440 {
+    0% {background-position: 0 0;}
+    5% {background-position: -360px 0;}
+    10% {background-position: -720px 0;}
+    15% {background-position: -1080px 0;}
+    20% {background-position: -1440px 0;}
+    25% {background-position: -1800px 0;}
+    30% {background-position: -2160px 0;}
+    35% {background-position: -2520px 0;}
+    40%  {background-position: -2880px 0;}
+    45%  {background-position: -3240px 0;}
+    50%  {background-position: -3960px 0;}
+    55%  {background-position: -4320px 0;}
+    60%  {background-position: -4680px 0;}
+    65%  {background-position: -5040px 0;}
+    70%  {background-position: -5400px 0;}
+    75%  {background-position: -5760px 0;}
+    80%  {background-position: -6120px 0;}
+    85%  {background-position: -6840px 0;}
+    90%  {background-position: -7200px 0;}
+    95%  {background-position: -7200px 0;}
+    100%  {background-position: -7200px 0;}
+  }
+  .happyhearts {
+    margin-left: -28px;
+  }
+  /*стили горящего сердца*/
+  .fireheart {
+  margin-left: 35px;
+  }
+  /*стили черных сердец*/
+  .blackhearts {
+    width: 360px;
+    height: 600px;
+    display: block;
+    background: url('images/blackheart1440.svg');
+    animation: bheart1440 0.8s steps(1) infinite;
+  }
+  @keyframes bheart1440 {
+    0% {background-position: 0 0;}
+    16% {background-position: -360px 0;}
+    32% {background-position: -720px 0;}
+    48% {background-position: -1080px 0;}
+    64% {background-position: -1440px 0;}
+    80% {background-position: -1800px 0;}
+    }
 }
 /*______________________________________________________________834______________________________________________________________*/
 @media screen and (min-width: 834px) and (max-width: 835px) {
