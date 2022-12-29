@@ -1,0 +1,402 @@
+body {
+cursor: url('images/cursor.svg'), auto;
+}
+.blocks {
+  border: 4px solid black;
+  font-family: "MyFont" ;
+}
+/*стили алины*/
+.block1 {
+  grid-area: block1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.alina {
+  width: 501px;
+  height: 528px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 305px;
+  margin-top: 35px;
+  background: url('images/alina.svg');
+  animation: alina 2s steps(1) infinite;
+}
+@keyframes alina {
+  0% {background-position: 0 0;}
+  5% {background-position: -501px 0;}
+  10% {background-position: -1002px 0;}
+  15% {background-position: -1503px 0;}
+  20% {background-position: -2004px 0;}
+  25% {background-position: -2505px 0;}
+  30%  {background-position: -3006px 0;}
+  35%  {background-position: -3507px 0;}
+  40%  {background-position: -4008px 0;}
+  45%  {background-position: -4509px 0;}
+  50%  {background-position: -5010px 0;}
+  55%  {background-position: -5511px 0;}
+  60%  {background-position: -6012px 0;}
+  65%  {background-position: -6513px 0;}
+  70%  {background-position: -7014px 0;}
+  75%  {background-position: -7515px 0;}
+  80%  {background-position: -8016px 0;}
+}
+.b1t1 {
+  padding-top: 145px;
+  padding-left: 80px;
+}
+/*стили 2 блока (надпись)*/
+.block2 {
+  background: url('images/line1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b2t1 p {
+  margin-top: 45px;
+  margin-left: 25px;
+  font-size: 70px;
+  text-align: center;
+}
+/*стили слез*/
+.tears {
+  height: 280px;
+  width: 390px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: url('images/tears.svg');
+  animation: tears 0.7s steps(1) infinite;
+}
+
+@keyframes tears {
+  0% {background-position: 0 0;}
+  5% {background-position: -450px 0;}
+  10% {background-position: -450px 0;}
+  15% {background-position: -450px 0;}
+  20% {background-position: -900px 0;}
+  25% {background-position: -1350px 0;}
+  30% {background-position: -1800px 0;}
+  35% {background-position: -2250px 0;}
+  40%  {background-position: -2700px 0;}
+  45%  {background-position: -3150px 0;}
+  50%  {background-position: -3600px 0;}
+  55%  {background-position: -4050px 0;}
+  60%  {background-position: -4500px 0;}
+  65%  {background-position: -4950px 0;}
+  70%  {background-position: -5400px 0;}
+  75%  {background-position: -5850px 0;}
+  80%  {background-position: -6750px 0;}
+  85%  {background-position: -7200px 0;}
+  90%  {background-position: -7650px 0;}
+  95%  {background-position: -7650px 0;}
+  100%  {background-position: -7650px 0;}
+}
+
+/*стили двух половинок*/
+.rheart {
+  height: 100%;
+  width: 100%;
+  background: url('images/rheart.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rheart:hover {
+  background: url('images/rheart2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*стили смайлов*/
+.block5 {
+  background: url('images/face1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block5:hover {
+  background: url('images/face2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*стили долларов*/
+.block6 {
+  background: url('images/money.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.block6:hover {
+  background: url('images/money2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*стили с солнцем*/
+.block7 {
+  grid-area: block7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.b7t1 p {
+  padding-top: 110px;
+  padding-left: 65px;
+}
+.sun {
+  height: 80%;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 30px;
+  background: url('images/sun1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sun:hover {
+  background: url('images/sun2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*стили блока с телефоном*/
+.block8 {
+  grid-area: block8;
+  display: flex;
+  flex-direction: column;
+  background: url('images/line2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.phone {
+  display: block;
+  width: 330px;
+  height: 330px;
+  margin-top: 25px;
+  margin-left: 250px;
+  background: url('images/phone1.svg');
+  animation: phone 0.3s steps(1) infinite;
+}
+@keyframes phone {
+    0% {background-position: 0 0;}
+    10% {background-position: -330px 0;}
+    20% {background-position: -660px 0;}
+    30% {background-position: -990px 0;}
+    40% {background-position: -1320px 0;}
+    50% {background-position: -1650px 0;}
+    60% {background-position: -1980px 0;}
+    70% {background-position: -2310px 0;}
+    80% {background-position: -2640px 0;}
+    90% {background-position: -2970px 0;}
+
+    }
+.b8t1 {
+  padding-top: 10px;
+  text-align: center;
+}
+/*стили 3 сердец*/
+.block9 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: block10;
+  gap: 20px;
+}
+.heart1 {
+  width: 80%;
+  height: 80%;
+  background: url('images/heart1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart2 {
+  width: 80%;
+  height: 80%;
+  background: url('images/heart2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart3 {
+  width: 80%;
+  height: 80%;
+  background: url('images/heart3.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart1:hover {
+  background: url('images/heart12.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart2:hover {
+  background: url('images/heart22.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart3:hover {
+  background: url('images/heart32.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*стили блока со звездами*/
+.block10 {
+  grid-area: block10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.stars {
+  width: 675px;
+  height: 300px;
+  background: url('images/stars.svg');
+  animation: stars 0.7s steps(1) infinite;
+}
+@keyframes stars {
+  0% {background-position: 0 0;}
+  50% {background-position: -675px 0;}
+  100% {background-position: -1350px 0;}
+  }
+.b10t1 p {
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: center;
+}
+/*стили веселых сердечек*/
+.block11 {
+  grid-area: block11;
+  justify-content: center;
+  align-items: center;
+}
+.happyhearts {
+  width: 950px;
+  height: 450px;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  margin-left: 65px;
+  background: url('images/happyhearts.svg');
+  animation: hheart 0.7s steps(1) infinite;
+}
+@keyframes hheart {
+  0% {background-position: 0 0;}
+  3% {background-position: -950px 0;}
+  6% {background-position: -1900px 0;}
+  9% {background-position: -2850px 0;}
+  12% {background-position: -3800px 0;}
+  15% {background-position: -4750px 0;}
+  18%  {background-position: -5700px 0;}
+  21%  {background-position: -6650px 0;}
+  24%  {background-position: -7600px 0;}
+  27%  {background-position: -8550px 0;}
+  30%  {background-position: -9500px 0;}
+  33%  {background-position: -10450px 0;}
+  36%  {background-position: -11400px 0;}
+  39%  {background-position: -12350px 0;}
+  41%  {background-position: -13300px 0;}
+  44%  {background-position: -14250px 0;}
+  47%  {background-position: -15200px 0;}
+  50%  {background-position: -16150px 0;}
+  53%  {background-position: -17100px 0;}
+  56%  {background-position: -17100px 0;}
+  59%  {background-position: -17100px 0;}
+  61%  {background-position: -17100px 0;}
+  64%  {background-position: -17100px 0;}
+  100%  {background-position: -17100px 0;}
+  }
+
+/*стили блока с цветами*/
+.block12 {
+  grid-area: block12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.flowers {
+  width: 900px;
+  height: 380px;
+  background-repeat: no-repeat;
+  background: url('images/flowers.svg');
+  animation: flowers 1s steps(1) infinite;
+}
+@keyframes flowers {
+  0% {background-position: 0 0;}
+  33% {background-position: -900px 0;}
+  66% {background-position: -1800px 0;}
+  99% {background-position: -2700px 0;}
+  }
+.b12t1 p {
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+/*стили черных сердец*/
+.blackhearts {
+  width: 440px;
+  height: 605px;
+  background: url('images/blackheart.png');
+  animation: bheart 0.8s steps(1) infinite;
+}
+@keyframes bheart {
+  0% {background-position: 0 0;}
+  16% {background-position: -440px 0;}
+  32% {background-position: -880px 0;}
+  48% {background-position: -1320px 0;}
+  64% {background-position: -1760px 0;}
+  80% {background-position: -2200px 0;}
+}
+/*стили горящего сердца*/
+.block14 {
+  grid-area: block14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fireheart {
+  width: 300px;
+  height: 523px;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 75px;
+  margin-top: 20px;
+  background: url('images/fireheart.svg');
+  animation: fireheart 0.7s steps(1) infinite;
+}
+@keyframes fireheart {
+  0% {background-position: 0 0;}
+  25% {background-position: -300px 0;}
+  50% {background-position: -600px 0;}
+  75% {background-position: -900px 0;}
+  }
+/*стили подвала*/
+.block15 {
+  display: flex;
+  background-color: #FB0153;
+  font-size: 60px;
+}
+.block15 img {
+  margin-top: 70px;
+  margin-left: 805px;
+}
+.b15t1 {
+  margin-top: 90px;
+  margin-left: 100px;
+}
+.b15t1  p+p{
+  font-family: "MyFont3";
+}

@@ -1,0 +1,48 @@
+/*______________________________________________________________1920______________________________________________________________*/
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .container {
+    grid-template-rows: repeat(11, 300px);
+  }
+}
+/*______________________________________________________________834______________________________________________________________*/
+@media screen and (min-width: 744px) and (max-width: 834px) {
+  .container {
+    display: grid;
+      grid-template-columns: repeat(2, 50%);
+      grid-template-rows: repeat(24, 1fr);
+      gap: 0px 0px;
+      grid-template-areas:
+      "block1 block1 block1 block1"
+      "block1 block1 block1 block1"
+      "block1 block1 block1 block1"
+      "block2 block2 block3 block3"
+      "block2 block2 block3 block3"
+      "block4 block4 block6 block6"
+      "block4 block4 block5 block5"
+      "block7 block7 block7 block7"
+      "block7 block7 block7 block7"
+      "block9 block9 block9 block9"
+      "block9 block9 block9 block9"
+      "block8 block8 block10 block10"
+      "block8 block8 block10 block10"
+      "block8 block8 block10 block10"
+      "block11 block11 block11 block11"
+      "block11 block11 block11 block11"
+      "block11 block11 block11 block11"
+      "block12 block12 block12 block12"
+      "block12 block12 block12 block12"
+      "block12 block12 block12 block12"
+      "block12 block12 block12 block12"
+      "block13 block13 block14 block14"
+      "block13 block13 block14 block14"
+      "block13 block13 block14 block14"
+      "block15 block15 block15 block15"
+    }
+    .block5 {
+      background: url('images/face1834.svg');
+
+    }
+    .block5:hover {
+      background: url('images/face2834.svg');
+    }
+  }

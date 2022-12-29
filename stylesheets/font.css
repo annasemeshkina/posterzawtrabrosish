@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MyFont" ;
+  src:url('font/Myfont-Regular.ttf');
+}
+@font-face {
+  font-family: "MyFont3" ;
+  src:url('font/Myfont3-Regular.ttf');
+}
+.block1 p {
+  font-size: 80px;
+}
+.block7 p {
+  font-size: 60px;
+}
+.block8 p {
+  font-size: 65px;
+}
+.block10 p {
+  font-size: 60px;
+}
+.block12 p {
+  font-size: 70px;
+}
