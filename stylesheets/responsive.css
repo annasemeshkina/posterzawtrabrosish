@@ -1,14 +1,42 @@
-/*______________________________________________________________1920______________________________________________________________*/
-@media screen and (min-width: 1280px) and (max-width: 1920px) {
+/*______________________________________________________________1440______________________________________________________________*/
+@media screen and (min-width: 1399px) and (max-width: 1440px) {
   .container {
     grid-template-rows: repeat(11, 300px);
   }
+  .block1 p {
+    font-size: 65px;
+  }
+  .b1t1 {
+    padding-left: 80px;
+    padding-top: 40px;
+  }
+  .alina {
+    margin-left: 65px;
+  }
+  .block2 {
+    background: url('images/line11440.svg');
+  }
+  .b2t1 p {
+    margin-top: 65px;
+    margin-left: 10px;
+    font-size: 55px;
+    text-align: center;
+  }
+  /*стили с солнцем*/
+  .b7t1 p {
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 60px;
+  }
+  .phone {
+    margin-left: 160px;
+  }
 }
 /*______________________________________________________________834______________________________________________________________*/
-@media screen and (min-width: 744px) and (max-width: 834px) {
+@media screen and (min-width: 834px) and (max-width: 835px) {
   .container {
     display: grid;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(2, 417px);
       grid-template-rows: repeat(24, 1fr);
       gap: 0px 0px;
       grid-template-areas:

@@ -17,9 +17,10 @@ cursor: url('images/cursor.svg'), auto;
   width: 501px;
   height: 528px;
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   display: block;
-  margin-left: 305px;
+  margin-left: 70px;
   margin-top: 35px;
   background: url('images/alina.svg');
   animation: alina 2s steps(1) infinite;
@@ -44,7 +45,7 @@ cursor: url('images/cursor.svg'), auto;
   80%  {background-position: -8016px 0;}
 }
 .b1t1 {
-  padding-top: 145px;
+  padding-top: 60px;
   padding-left: 80px;
 }
 /*стили 2 блока (надпись)*/
@@ -61,14 +62,21 @@ cursor: url('images/cursor.svg'), auto;
   text-align: center;
 }
 /*стили слез*/
+.block3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tears {
   height: 280px;
   width: 390px;
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   background: url('images/tears.svg');
   animation: tears 0.7s steps(1) infinite;
 }
+
 
 @keyframes tears {
   0% {background-position: 0 0;}
@@ -144,13 +152,12 @@ cursor: url('images/cursor.svg'), auto;
   align-items: center;
 }
 .b7t1 p {
-  padding-top: 110px;
+  padding-top: 40px;
   padding-left: 65px;
 }
 .sun {
-  height: 80%;
-  width: 80%;
-  margin-top: 30px;
+  height: 250px;
+  width: 250px;
   margin-left: 30px;
   background: url('images/sun1.svg');
   background-size: contain;
@@ -344,10 +351,16 @@ cursor: url('images/cursor.svg'), auto;
   text-align: center;
 }
 /*стили черных сердец*/
+.block13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .blackhearts {
   width: 440px;
   height: 605px;
   background: url('images/blackheart.png');
+
   animation: bheart 0.8s steps(1) infinite;
 }
 @keyframes bheart {
@@ -385,16 +398,24 @@ cursor: url('images/cursor.svg'), auto;
   }
 /*стили подвала*/
 .block15 {
+  grid-area: block15;
   display: flex;
   background-color: #FB0153;
   font-size: 60px;
+  flex-direction: row;
 }
-.block15 img {
-  margin-top: 70px;
+.hse {
+  width: 400px;
+  height: 200px;
+  margin-top: 30px;
   margin-left: 805px;
+  background: url('images/hse.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .b15t1 {
-  margin-top: 90px;
+  margin-top: 50px;
   margin-left: 100px;
 }
 .b15t1  p+p{
