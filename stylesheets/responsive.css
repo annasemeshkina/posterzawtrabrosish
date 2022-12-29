@@ -151,7 +151,7 @@
 }
 
 /*______________________________________________________________834______________________________________________________________*/
-@media screen and (min-width: 834px) and (max-width: 1279px) {
+@media screen and (max-width: 834px) {
   .container {
     display: grid;
       grid-template-columns: repeat(2, 417px);
@@ -184,6 +184,7 @@
       "block13 block13 block14 block14"
       "block15 block15 block15 block15"
     }
+
     .block5 {
       background: url('images/face1834.svg');
 
